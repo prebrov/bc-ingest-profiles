@@ -1,6 +1,6 @@
 {
   "name": "Asia-STANDARD",
-  "description": "Default for news and entertainment content monetised via ads. 16x9 MP4 + HLS, up to 900Kbps 960x540, VBR capped at 1.2Mbps.",
+  "description": "Default for news and entertainment content monetised via ads. 16x9 MP4 + HLS, up to 900Kbps 960x540, VBR capped at 1035Kbps.",
   "account_id": " ****************** ",
   "keep_renditions": true,
   "digital_master": {

@@ -1,6 +1,6 @@
 {
   "name": "Asia-PREMIUM",
-  "description": "Premium, directly monetised content: Pay-per-View, Subscription VOD, Sponsored. 16x9 MP4 + HLS, up to 1.5Mbps 1280x720 (720p), VBR capped at 1.8Mbps.",
+  "description": "Premium, directly monetised content: Pay-per-View, Subscription VOD, Sponsored. 16x9 MP4 + HLS, up to 1.5Mbps 1280x720 (720p), VBR capped at 1.95Mbps.",
   "account_id": " ****************** ",
   "keep_renditions": true,
   "digital_master": {
