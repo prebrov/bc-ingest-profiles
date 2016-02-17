@@ -21,7 +21,7 @@
       "keyframe_rate": 0.5,
       "width": 480,
       "height": 270,
-      "audio_bitrate": 40,
+      "audio_bitrate": 48,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
       "type": "standard"
@@ -75,7 +75,7 @@
       "keyframe_rate": 0.5,
       "width": 480,
       "height": 270,
-      "audio_bitrate": 40,
+      "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
       "type": "segmented"
