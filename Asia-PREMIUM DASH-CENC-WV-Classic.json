@@ -1,0 +1,323 @@
+{
+  "name": "Asia-PREMIUM DASH-CENC and Widevine Classic",
+  "description": "DASH CENC with Widevine Classic",
+  "account_id": " ****************** ",
+  "keep_renditions": true,
+  "digital_master": {
+    "rendition": "passthrough",
+    "distribute": false
+  },
+  "renditions": [
+    {
+      "media_type": "video",
+      "reference_id": "wv-300",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "force_aac_profile": "aac-lc",
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 300,
+      "decoder_bitrate_cap": 450,
+      "decoder_buffer_size": 900,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 480,
+      "height": 270,
+      "h264_profile": "baseline"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "wv-600",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "force_aac_profile": "aac-lc",
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 600,
+      "decoder_bitrate_cap": 900,
+      "decoder_buffer_size": 1800,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 480,
+      "height": 270,
+      "h264_profile": "baseline"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "wv-900",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "force_aac_profile": "aac-lc",
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 900,
+      "decoder_bitrate_cap": 1350,
+      "decoder_buffer_size": 2700,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 630,
+      "height": 354,
+      "h264_profile": "main"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "wv-1200",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "force_aac_profile": "aac-lc",
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 1200,
+      "decoder_bitrate_cap": 1800,
+      "decoder_buffer_size": 3600,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 960,
+      "height": 540,
+      "h264_profile": "main"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "wv-1500",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "force_aac_profile": "aac-lc",
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 1500,
+      "decoder_bitrate_cap": 2250,
+      "decoder_buffer_size": 4500,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-96",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 48,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 96,
+      "decoder_bitrate_cap": 144,
+      "decoder_buffer_size": 288,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 480,
+      "height": 270,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-300",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 300,
+      "decoder_bitrate_cap": 450,
+      "decoder_buffer_size": 900,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 640,
+      "height": 360,
+      "h264_profile": "baseline",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-600",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 600,
+      "decoder_bitrate_cap": 900,
+      "decoder_buffer_size": 1800,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 640,
+      "height": 360,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-900",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 900,
+      "decoder_bitrate_cap": 1350,
+      "decoder_buffer_size": 2700,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 960,
+      "height": 540,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-1200",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 1200,
+      "decoder_bitrate_cap": 1800,
+      "decoder_buffer_size": 3600,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1024,
+      "height": 576,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "reference_id": "dash-1500",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "max_aac_profile" : "aac-lc",
+      "video_codec": "h264",
+      "video_bitrate": 1500,
+      "decoder_bitrate_cap": 2250,
+      "decoder_buffer_size": 4500,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "poster",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "thumbnail",
+      "width": 320,
+      "height": 180
+    }
+  ],
+  "packages": [
+    {
+      "package_type": "widevine",
+      "renditions": [
+        "wv-300",
+        "wv-600"
+      ]
+    },
+    {
+      "package_type": "widevine",
+      "renditions": [
+        "wv-900"
+      ]
+    },
+    {
+      "package_type": "widevine",
+      "renditions": [
+        "wv-1200"
+      ]
+    },
+    {
+      "package_type": "widevine",
+      "renditions": [
+        "wv-1500"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-96"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-300"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-600"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-900"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-1200"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready"
+      ],
+      "renditions": [
+        "dash-1500"
+      ]
+    }
+  ]
+}
