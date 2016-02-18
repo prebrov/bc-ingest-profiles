@@ -24,6 +24,7 @@
       "audio_bitrate": 48,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "standard"
     },
     {
@@ -42,6 +43,7 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "standard"
     },
     {
@@ -60,6 +62,7 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "standard"
     },
     {
@@ -78,6 +81,7 @@
       "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -96,6 +100,7 @@
       "audio_bitrate": 56,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -114,6 +119,7 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -132,6 +138,7 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -150,6 +157,7 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -168,6 +176,7 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
@@ -186,6 +195,7 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
       "type": "segmented"
     },
     {
