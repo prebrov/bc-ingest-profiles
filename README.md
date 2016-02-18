@@ -11,4 +11,10 @@ Default for news and entertainment content monetised via ads. 16x9 MP4 + HLS, up
 ## Asia-PREMIUM
 Premium, directly monetised content: Pay-per-View, Subscription VOD, Sponsored. 16x9 MP4 + HLS, up to 1.5Mbps 1280x720 (720p), VBR capped at 1.8Mbps.
 
+## Asia-PREMIUM DASH-CENC
+Based on Asia-PREMIUM, DRM-protected with DASH-CENC, packaged for **Widevine Modular**, PlayReady, Marlin
+
+## Asia-PREMIUM DASH-CENC and Widevine Classic
+Based on Asia-PREMIUM, DRM-protected with Widevine Classic and DASH-CENC, packaged for **Widevine Classic**, PlayReady, Marlin
+
 Documentation on Ingest Profiles: https://docs.brightcove.com/en/video-cloud/ingest-profiles-api/reference/profile-fields-reference.html
