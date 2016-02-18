@@ -1,0 +1,217 @@
+{
+  "id": "56173a4ae4b0f535dd5ef95d",
+  "name": "Asia-PREMIUM DASH-CENC",
+  "description": "DRM-protected premium content profile. Built by Brightcove for South East Asia Publishers.",
+  "account_id": "3438112666001",
+  "keep_renditions": true,
+  "digital_master": {
+    "rendition": "passthrough",
+    "distribute": false
+  },
+  "renditions": [
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652581",
+      "reference_id": "dash-cenc-1",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 48,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 96,
+      "decoder_bitrate_cap": 144,
+      "decoder_buffer_size": 288,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 480,
+      "height": 270,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652582",
+      "reference_id": "dash-cenc-2",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 300,
+      "decoder_bitrate_cap": 450,
+      "decoder_buffer_size": 900,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 640,
+      "height": 360,
+      "h264_profile": "baseline",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652583",
+      "reference_id": "dash-cenc-3",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 600,
+      "decoder_bitrate_cap": 900,
+      "decoder_buffer_size": 1800,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 640,
+      "height": 360,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652584",
+      "reference_id": "dash-cenc-4",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 900,
+      "decoder_bitrate_cap": 1350,
+      "decoder_buffer_size": 2700,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 960,
+      "height": 540,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652585",
+      "reference_id": "dash-cenc-5",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 1200,
+      "decoder_bitrate_cap": 1800,
+      "decoder_buffer_size": 3600,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1024,
+      "height": 576,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "video",
+      "id": "559cc103e4b043a81b652586",
+      "reference_id": "dash-cenc-6",
+      "format": "m4f",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 1500,
+      "decoder_bitrate_cap": 2250,
+      "decoder_buffer_size": 4500,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main",
+      "streaming_delivery_profile": "live"
+    },
+    {
+      "media_type": "image",
+      "id": "559cc103e4b043a81b652587",
+      "format": "png",
+      "label": "poster",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "media_type": "image",
+      "id": "559cc103e4b043a81b652588",
+      "format": "png",
+      "label": "thumbnail",
+      "width": 160,
+      "height": 90
+    }
+  ],
+  "packages": [
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-1"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-2"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-3"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-4"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-5"
+      ]
+    },
+    {
+      "package_type": "dash",
+      "drm": [
+        "marlin",
+        "playready",
+        "widevine"
+      ],
+      "renditions": [
+        "dash-cenc-6"
+      ]
+    }
+  ]
+}
