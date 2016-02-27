@@ -1,0 +1,201 @@
+{
+  "name": "Mezzanine + Watermark",
+  "description": "[Sample profile] Creates mezzanine file from source, stores it as digital master, adds watermark to all other renditions. Watermarks are placed and scaled differently on MP4 vs. HLS",
+  "account_id": " ****************** ",
+  "keep_renditions": true,
+  "digital_master": {
+    "rendition": "mp4_mezzanine",
+    "distribute": false
+    },
+  "renditions": [
+    {
+      "reference_id": "mp4_mezzanine",
+      "media_type": "video",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 192,
+      "audio_sample_rate": 44100,
+      "video_codec": "h264",
+      "video_bitrate": 10000,
+      "decoder_bitrate_cap": 15000,
+      "decoder_buffer_size": 30000,
+      "keyframe_rate": 0.5,
+      "fixed_keyframe_interval": true,
+      "width": 1920,
+      "height": 1080,
+      "h264_profile": "high",
+      "h264_bframes": 5
+    },
+    {
+      "reference_id": "mp4-300",
+      "media_type": "video",
+      "format": "mp4",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "baseline",
+      "video_bitrate": 300,
+      "decoder_bitrate_cap": 450,
+      "decoder_buffer_size": 900,
+      "keyframe_rate": 0.5,
+      "width": 480,
+      "height": 270,
+      "audio_bitrate": 48,
+      "audio_sample_rate": 44100,
+      "audio_codec": "aac",
+      "type": "standard",
+      "watermarks": [
+        {
+          "width": "20%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "reference_id": "mp4-600",
+      "media_type": "video",
+      "format": "mp4",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "main",
+      "video_bitrate": 600,
+      "decoder_bitrate_cap": 900,
+      "decoder_buffer_size": 1800,
+      "keyframe_rate": 0.5,
+      "width": 640,
+      "height": 360,
+      "audio_bitrate": 96,
+      "audio_sample_rate": 44100,
+      "audio_codec": "aac",
+      "type": "standard",
+      "watermarks": [
+        {
+          "width": "20%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "reference_id": "hls-96",
+      "media_type": "video",
+      "format": "ts",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "main",
+      "video_bitrate": 96,
+      "decoder_bitrate_cap": 144,
+      "decoder_buffer_size": 288,
+      "keyframe_rate": 0.5,
+      "width": 480,
+      "height": 270,
+      "audio_bitrate": 48,
+      "audio_sample_rate": 22050,
+      "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
+      "type": "segmented",
+      "watermarks": [
+        {
+          "y": "-10%",
+          "x": "-10%",
+          "width": "7%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "reference_id": "hls-150",
+      "media_type": "video",
+      "format": "ts",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "baseline",
+      "video_bitrate": 150,
+      "decoder_bitrate_cap": 225,
+      "decoder_buffer_size": 450,
+      "keyframe_rate": 0.5,
+      "width": 480,
+      "height": 270,
+      "audio_bitrate": 56,
+      "audio_sample_rate": 22050,
+      "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
+      "type": "segmented",
+      "watermarks": [
+        {
+          "y": "-10%",
+          "x": "-10%",
+          "width": "7%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "reference_id": "hls-300",
+      "media_type": "video",
+      "format": "ts",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "baseline",
+      "video_bitrate": 300,
+      "decoder_bitrate_cap": 450,
+      "decoder_buffer_size": 900,
+      "keyframe_rate": 0.5,
+      "width": 640,
+      "height": 360,
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
+      "type": "segmented",
+      "watermarks": [
+        {
+          "y": "-10%",
+          "x": "-10%",
+          "width": "7%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "reference_id": "hls-600",
+      "media_type": "video",
+      "format": "ts",
+      "fixed_keyframe_interval": true,
+      "video_codec": "h264",
+      "h264_profile": "main",
+      "video_bitrate": 600,
+      "decoder_bitrate_cap": 780,
+      "decoder_buffer_size": 1560,
+      "keyframe_rate": 0.5,
+      "width": 768,
+      "height": 432,
+      "audio_bitrate": 128,
+      "audio_sample_rate": 44100,
+      "audio_codec": "aac",
+      "max_aac_profile" : "aac-lc",
+      "type": "segmented",
+      "watermarks": [
+        {
+          "y": "-10%",
+          "x": "-10%",
+          "width": "7%",
+          "url": "s3://bcdemos/img/bc-logo-ondark.png"
+        }
+      ]
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "poster",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "thumbnail",
+      "width": 160,
+      "height": 90
+    }
+  ],
+  "packages": []
+}

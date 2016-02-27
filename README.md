@@ -17,4 +17,7 @@ Based on Asia-PREMIUM, DRM-protected with DASH-CENC, packaged for **Widevine Mod
 ## Asia-PREMIUM DASH-CENC and Widevine Classic
 Based on Asia-PREMIUM, DRM-protected with Widevine Classic and DASH-CENC, packaged for **Widevine Classic**, PlayReady, Marlin
 
+## Mezzanine + Watermark
+Creates mezzanine file from source, stores it as digital master, adds watermark to all other renditions. Watermarks are placed and scaled differently on MP4 vs. HLS
+
 Documentation on Ingest Profiles: https://docs.brightcove.com/en/video-cloud/ingest-profiles-api/reference/profile-fields-reference.html
