@@ -17,6 +17,9 @@ Based on Asia-PREMIUM, DRM-protected with DASH-CENC, packaged for **Widevine Mod
 ## Asia-PREMIUM DASH-CENC and Widevine Classic
 Based on Asia-PREMIUM, DRM-protected with Widevine Classic and DASH-CENC, packaged for **Widevine Classic**, PlayReady, Marlin
 
+## Asia-PREMIUM DASH-CENC and FairPlay
+Based on Asia-PREMIUM, DRM-protected with Apple FairPlay and DASH-CENC, packaged for **Widevine Classic**, **HLS FairPlay**, PlayReady, Marlin
+
 ## Mezzanine + Watermark
 Creates mezzanine file from source, stores it as digital master, adds watermark to all other renditions. Watermarks are placed and scaled differently on MP4 vs. HLS
 
