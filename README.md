@@ -11,6 +11,10 @@ Default for news and entertainment content monetised via ads. 16x9 MP4 + HLS, up
 ## Asia-PREMIUM
 Premium, directly monetised content: Pay-per-View, Subscription VOD, Sponsored. 16x9 MP4 + HLS, up to 1.5Mbps 1280x720 (720p), VBR capped at 1.8Mbps.
 
+## Asia-COMPLETE
+Most complete set of renditions, ranging from 144p to 1080p. 360p, 480p and 720p are in multiple bitrates.
+Recommended for testing with network throttlers. 16x9 MP4 + HLS, up to 3.5Mbps 1920x1080 (1080p), VBR capped at 7Mbps.
+
 ## Asia-PREMIUM DASH-CENC
 Based on Asia-PREMIUM, DRM-protected with DASH-CENC, packaged for **Widevine Modular**, PlayReady, Marlin
 
