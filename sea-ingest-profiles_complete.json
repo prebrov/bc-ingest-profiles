@@ -290,8 +290,8 @@
       "media_type": "image",
       "format": "jpg",
       "label": "poster",
-      "width": 640,
-      "height": 360
+      "width": 854,
+      "height": 480
     },
     {
       "media_type": "image",
