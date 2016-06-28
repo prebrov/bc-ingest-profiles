@@ -6,12 +6,13 @@
   "digital_master": {
     "rendition": "passthrough",
     "distribute": false
-    },
+  },
   "renditions": [
     {
       "reference_id": "mp4-144p",
       "media_type": "video",
       "format": "mp4",
+      "type": "standard",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -22,17 +23,16 @@
       "max_frame_rate": 12,
       "width": 426,
       "height": 240,
-      "audio_bitrate": 56,
+      "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "audio_codec": "aac",
-      "type": "standard"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "mp4-288p",
       "media_type": "video",
       "format": "mp4",
+      "type": "standard",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -43,15 +43,16 @@
       "max_frame_rate": 24,
       "width": 512,
       "height": 288,
-      "audio_bitrate": 48,
-      "audio_sample_rate": 44100,
+      "audio_bitrate": 56,
+      "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "type": "standard"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "mp4-360p",
       "media_type": "video",
       "format": "mp4",
+      "type": "standard",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -66,12 +67,13 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "type": "standard"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "mp4-576p",
       "media_type": "video",
       "format": "mp4",
+      "type": "standard",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -86,12 +88,13 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "type": "standard"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-144p",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -105,13 +108,13 @@
       "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-240p",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -125,13 +128,13 @@
       "audio_bitrate": 56,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-360p-lo",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -145,13 +148,13 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-360p-hi",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -166,13 +169,13 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-480p-lo",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
@@ -186,13 +189,13 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-480p-hi",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -207,13 +210,13 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-576p-lo",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -228,13 +231,13 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-576p-hi",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -249,13 +252,13 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-720p-lo",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -270,13 +273,13 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-720p-hi",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -291,13 +294,13 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 48000,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "reference_id": "hls-1080p",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "main",
@@ -312,8 +315,7 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 48000,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "max_aac_profile" : "aac-lc"
     },
     {
       "media_type": "image",
