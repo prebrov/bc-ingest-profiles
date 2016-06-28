@@ -1,6 +1,6 @@
 {
   "name": "Asia-COMPLETE",
-  "description": "A complete set of renditions, from 144p to 1080p. Recommended for testing with network throttlers. 16x9 MP4 + HLS, up to 3.5Mbps 1920x1080 (1080p), VBR capped at 7Mbps.",
+  "description": "Most complete set of renditions, from 144p to 1080p. Recommended for testing with network throttlers. 16x9 MP4 + HLS, up to 3.5Mbps 1920x1080 (1080p), VBR capped at 7Mbps.",
   "account_id": " ****************** ",
   "keep_renditions": true,
   "digital_master": {
