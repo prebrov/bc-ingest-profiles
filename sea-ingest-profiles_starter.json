@@ -68,7 +68,7 @@
       "format": "ts",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
-      "h264_profile": "main",
+      "h264_profile": "baseline",
       "video_bitrate": 96,
       "decoder_bitrate_cap": 144,
       "decoder_buffer_size": 288,
