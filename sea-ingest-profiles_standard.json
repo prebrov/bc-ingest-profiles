@@ -79,7 +79,7 @@
       "fixed_keyframe_interval": true,
       "width": 480,
       "height": 270,
-      "h264_profile": "main"
+      "h264_profile": "baseline"
     },
     {
       "reference_id": "hls-150",
