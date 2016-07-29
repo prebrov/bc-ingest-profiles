@@ -1,0 +1,32 @@
+{
+  "name": "Audio Only",
+  "description": "Single bitrate audio-only, 192Kbps",
+  "account_id": " ****************** ",
+  "keep_renditions": true,
+  "digital_master": {
+    "rendition": "passthrough",
+    "distribute": false
+    },
+  "renditions": [
+    {
+      "reference_id": "mp4-aac-192",
+      "media_type": "video",
+      "format": "mp4",
+      "skip_video": true,
+      "audio_bitrate": 192,
+      "audio_sample_rate": 48000,
+      "audio_codec": "aac",
+      "type": "standard"
+    },
+    {
+      "reference_id": "hls-aac-192",
+      "media_type": "video",
+      "format": "ts",
+      "audio_bitrate": 192,
+      "audio_sample_rate": 48000,
+      "audio_codec": "aac",
+      "type": "segmented"
+    }
+  ],
+  "packages": []
+}

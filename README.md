@@ -27,4 +27,7 @@ Based on Asia-PREMIUM, DRM-protected with Apple FairPlay and DASH-CENC, packaged
 ## Mezzanine + Watermark
 Creates mezzanine file from source, stores it as digital master, adds watermark to all other renditions. Watermarks are placed and scaled differently on MP4 vs. HLS
 
+## Audio Only
+Single bitrate audio-only, 48Khz 192Kbps AAC, HLS + MP4
+
 Documentation on Ingest Profiles: https://docs.brightcove.com/en/video-cloud/ingest-profiles-api/reference/profile-fields-reference.html
