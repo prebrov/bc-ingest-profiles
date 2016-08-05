@@ -22,6 +22,7 @@
       "reference_id": "hls-aac-192",
       "media_type": "video",
       "format": "ts",
+      "skip_video": true,
       "audio_bitrate": 192,
       "audio_sample_rate": 48000,
       "audio_codec": "aac",
