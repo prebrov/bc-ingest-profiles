@@ -2,6 +2,9 @@
 
 Custom and experimental Ingest Profiles for Brightcove Video Cloud.
 
+## Asia-VERTICAL-SHORT
+Optimised for low-bandwidth vertical videos, short format. 9x16 MP4 + HLS, up to 900Kbps 576x1024 (576p vertical), VBR capped at 1800Kbps.
+
 ## Asia-STARTER
 Low-bandwidth short-form videos for mobile-first viewers. 16x9 MP4 + HLS, up to 600Kbps 768x432, VBR capped at 780Kbps.
 
