@@ -60,7 +60,13 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "type": "standard"
+      "type": "standard",
+      "skip": [
+        {
+          "min_video_bitrate": 750,
+          "min_size": "1024x576"
+        }
+      ]
     },
     {
       "reference_id": "hls-96",
@@ -155,7 +161,12 @@
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
       "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "type": "segmented",
+      "skip": [
+        {
+          "min_video_bitrate": 750
+        }
+      ]
     },
     {
       "reference_id": "hls-1200",
@@ -174,7 +185,13 @@
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
       "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "type": "segmented",
+      "skip": [
+        {
+          "min_video_bitrate": 1000,
+          "min_size": "1024x576"
+        }
+      ]
     },
     {
       "reference_id": "hls-1500",
@@ -193,7 +210,13 @@
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
       "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "type": "segmented",
+      "skip": [
+        {
+          "min_video_bitrate": 1200,
+          "min_size": "1280x720"
+        }
+      ]
     },
     {
       "media_type": "image",

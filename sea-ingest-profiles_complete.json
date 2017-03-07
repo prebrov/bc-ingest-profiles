@@ -26,7 +26,7 @@
       "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
     },
     {
       "reference_id": "mp4-288p",
@@ -88,7 +88,13 @@
       "audio_bitrate": 96,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 1000,
+          "min_size": "1024x576"
+        }
+      ]
     },
     {
       "reference_id": "hls-144p",
@@ -231,7 +237,12 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 750,
+        }
+      ]
     },
     {
       "reference_id": "hls-576p-hi",
@@ -252,7 +263,12 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 1000
+        }
+      ]
     },
     {
       "reference_id": "hls-720p-lo",
@@ -273,7 +289,13 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 1000,
+          "min_size": "1024x576"
+        }
+      ]
     },
     {
       "reference_id": "hls-720p-hi",
@@ -294,7 +316,13 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 48000,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 1500,
+          "min_size": "1024x576"
+        }
+      ]
     },
     {
       "reference_id": "hls-1080p",
@@ -315,7 +343,13 @@
       "audio_bitrate": 192,
       "audio_sample_rate": 48000,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc"
+      "max_aac_profile" : "aac-lc",
+      "skip": [
+        {
+          "min_video_bitrate": 4000,
+          "min_size": "1920x1080"
+        }
+      ]
     },
     {
       "media_type": "image",

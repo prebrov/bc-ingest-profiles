@@ -136,7 +136,13 @@
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
       "max_aac_profile" : "aac-lc",
-      "type": "segmented"
+      "type": "segmented",
+      "skip": [
+        {
+          "min_video_bitrate": 600,
+          "min_size": "640x480"
+        }
+      ]
     },
     {
       "media_type": "image",

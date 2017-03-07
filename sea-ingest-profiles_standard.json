@@ -60,7 +60,13 @@
       "fixed_keyframe_interval": true,
       "width": 960,
       "height": 540,
-      "h264_profile": "main"
+      "h264_profile": "main",
+      "skip": [
+        {
+          "min_video_bitrate": 750,
+          "min_size": "640x480"
+        }
+      ]
     },
     {
       "media_type": "video",
@@ -155,7 +161,13 @@
       "fixed_keyframe_interval": true,
       "width": 960,
       "height": 540,
-      "h264_profile": "main"
+      "h264_profile": "main",
+      "skip": [
+        {
+          "min_video_bitrate": 750,
+          "min_size": "640x480"
+        }
+      ]
     },
     {
       "media_type": "image",
