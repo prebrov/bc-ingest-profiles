@@ -6,7 +6,7 @@
   "digital_master": {
     "rendition": "passthrough",
     "distribute": false
-    },
+  },
   "renditions": [
     {
       "reference_id": "mp4-150",
@@ -78,7 +78,7 @@
       "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "type": "segmented"
     },
     {
@@ -97,7 +97,7 @@
       "audio_bitrate": 56,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "type": "segmented"
     },
     {
@@ -116,7 +116,7 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "type": "segmented"
     },
     {
@@ -135,14 +135,12 @@
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "type": "segmented",
-      "skip": [
-        {
-          "min_video_bitrate": 600,
-          "min_size": "640x480"
-        }
-      ]
+      "skip": {
+        "min_video_bitrate": 600,
+        "min_size": "640x480"
+      }
     },
     {
       "media_type": "image",

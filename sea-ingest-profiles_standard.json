@@ -61,12 +61,10 @@
       "width": 960,
       "height": 540,
       "h264_profile": "main",
-      "skip": [
-        {
-          "min_video_bitrate": 750,
-          "min_size": "640x480"
-        }
-      ]
+      "skip": {
+        "min_video_bitrate": 750,
+        "min_size": "640x480"
+      }
     },
     {
       "media_type": "video",
@@ -76,7 +74,7 @@
       "audio_codec": "aac",
       "audio_bitrate": 48,
       "audio_sample_rate": 44100,
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "video_codec": "h264",
       "video_bitrate": 96,
       "decoder_bitrate_cap": 144,
@@ -103,7 +101,7 @@
       "audio_bitrate": 56,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "type": "segmented"
     },
     {
@@ -114,7 +112,7 @@
       "audio_codec": "aac",
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "video_codec": "h264",
       "video_bitrate": 300,
       "decoder_bitrate_cap": 450,
@@ -133,7 +131,7 @@
       "audio_codec": "aac",
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "video_codec": "h264",
       "video_bitrate": 600,
       "decoder_bitrate_cap": 900,
@@ -152,7 +150,7 @@
       "audio_codec": "aac",
       "audio_bitrate": 128,
       "audio_sample_rate": 44100,
-      "max_aac_profile" : "aac-lc",
+      "max_aac_profile": "aac-lc",
       "video_codec": "h264",
       "video_bitrate": 900,
       "decoder_bitrate_cap": 1035,
@@ -162,12 +160,10 @@
       "width": 960,
       "height": 540,
       "h264_profile": "main",
-      "skip": [
-        {
-          "min_video_bitrate": 750,
-          "min_size": "640x480"
-        }
-      ]
+      "skip": {
+        "min_video_bitrate": 750,
+        "min_size": "640x480"
+      }
     },
     {
       "media_type": "image",
