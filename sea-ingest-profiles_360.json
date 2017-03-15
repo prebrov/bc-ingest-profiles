@@ -1,0 +1,83 @@
+{
+  "name": "Asia-360",
+  "description": "4K, 2K and 1080p in HLS. Single bitrate per each resolution.",
+  "account_id": " ****************** ",
+  "digital_master": {
+    "rendition": "passthrough",
+    "distribute": false
+  },
+  "renditions": [
+    {
+      "media_type": "video",
+      "reference_id": "hls-1080p",
+      "format": "ts",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "video_codec": "h264",
+      "speed": 3,
+      "video_bitrate": 3800,
+      "decoder_bitrate_cap": 5892,
+      "decoder_buffer_size": 7856,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 1920,
+      "height": 1080,
+      "h264_profile": "main",
+      "h264_bframes": 2
+    },
+    {
+      "media_type": "video",
+      "reference_id": "hls-1440p",
+      "format": "ts",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "video_codec": "h264",
+      "speed": 3,
+      "video_bitrate": 6756,
+      "decoder_bitrate_cap": 10475,
+      "decoder_buffer_size": 13967,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 2560,
+      "height": 1440,
+      "h264_profile": "main",
+      "h264_bframes": 2
+    },
+    {
+      "media_type": "video",
+      "reference_id": "hls-4k",
+      "format": "ts",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "video_codec": "h264",
+      "speed": 3,
+      "video_bitrate": 15200,
+      "decoder_bitrate_cap": 23568,
+      "decoder_buffer_size": 31424,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 3840,
+      "height": 2160,
+      "h264_profile": "main",
+      "h264_bframes": 2
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "poster",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "media_type": "image",
+      "format": "jpg",
+      "label": "thumbnail",
+      "width": 160,
+      "height": 90
+    }
+  ],
+  "packages": []
+}
