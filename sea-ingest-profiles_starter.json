@@ -1,6 +1,6 @@
 {
   "name": "Asia-STARTER",
-  "description": "Low-bandwidth short-form videos for mobile-first viewers. 16x9 MP4 + HLS, up to 600Kbps 768x432, VBR capped at 780Kbps.",
+  "description": "Low-bandwidth short-form videos for mobile-first viewers. 16x9 Single MP4 + a bunch of HLS, up to 600Kbps 768x432, VBR capped at 780Kbps.",
   "account_id": " ****************** ",
   "keep_renditions": true,
   "digital_master": {
@@ -8,42 +8,6 @@
     "distribute": false
   },
   "renditions": [
-    {
-      "reference_id": "mp4-150",
-      "media_type": "video",
-      "format": "mp4",
-      "fixed_keyframe_interval": true,
-      "video_codec": "h264",
-      "h264_profile": "baseline",
-      "video_bitrate": 150,
-      "decoder_bitrate_cap": 225,
-      "decoder_buffer_size": 450,
-      "keyframe_rate": 0.5,
-      "width": 480,
-      "height": 270,
-      "audio_bitrate": 56,
-      "audio_sample_rate": 22050,
-      "audio_codec": "aac",
-      "type": "standard"
-    },
-    {
-      "reference_id": "mp4-300",
-      "media_type": "video",
-      "format": "mp4",
-      "fixed_keyframe_interval": true,
-      "video_codec": "h264",
-      "h264_profile": "baseline",
-      "video_bitrate": 300,
-      "decoder_bitrate_cap": 450,
-      "decoder_buffer_size": 900,
-      "keyframe_rate": 0.5,
-      "width": 480,
-      "height": 270,
-      "audio_bitrate": 48,
-      "audio_sample_rate": 44100,
-      "audio_codec": "aac",
-      "type": "standard"
-    },
     {
       "reference_id": "mp4-600",
       "media_type": "video",
@@ -63,26 +27,27 @@
       "type": "standard"
     },
     {
-      "reference_id": "hls-96",
+    "reference_id": "hls-144p",
       "media_type": "video",
       "format": "ts",
+      "type": "segmented",
       "fixed_keyframe_interval": true,
       "video_codec": "h264",
       "h264_profile": "baseline",
       "video_bitrate": 96,
       "decoder_bitrate_cap": 144,
-      "decoder_buffer_size": 288,
+      "decoder_buffer_size": 192,
       "keyframe_rate": 0.5,
-      "width": 480,
-      "height": 270,
+      "max_frame_rate": 12,
+      "width": 256,
+      "height": 144,
       "audio_bitrate": 48,
       "audio_sample_rate": 22050,
       "audio_codec": "aac",
-      "max_aac_profile": "aac-lc",
-      "type": "segmented"
+      "max_aac_profile": "aac-lc"
     },
     {
-      "reference_id": "hls-150",
+      "reference_id": "hls-270p",
       "media_type": "video",
       "format": "ts",
       "fixed_keyframe_interval": true,
@@ -101,7 +66,7 @@
       "type": "segmented"
     },
     {
-      "reference_id": "hls-300",
+      "reference_id": "hls-360p-lo",
       "media_type": "video",
       "format": "ts",
       "fixed_keyframe_interval": true,
@@ -120,7 +85,7 @@
       "type": "segmented"
     },
     {
-      "reference_id": "hls-600",
+      "reference_id": "hls-432p",
       "media_type": "video",
       "format": "ts",
       "fixed_keyframe_interval": true,
@@ -146,15 +111,15 @@
       "media_type": "image",
       "format": "jpg",
       "label": "poster",
-      "width": 640,
-      "height": 360
+      "width": 960,
+      "height": 540
     },
     {
       "media_type": "image",
       "format": "jpg",
       "label": "thumbnail",
-      "width": 160,
-      "height": 90
+      "width": 480,
+      "height": 270
     }
   ],
   "packages": []
